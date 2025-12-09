@@ -31,11 +31,11 @@ How to run the notebook:
 1. Upload the notebook to Google Colab
 2. Mount Google Drive:
    - from google.colab import drive
-      drive.mount('/content/drive')
+   - drive.mount('/content/drive')
 3. Adjust dataset paths in configuration.py, for example:
    - ASL_TRAIN_SET = "/content/drive/MyDrive/DAEN429Project/asl_alphabet_train"
-     ASL_TEST_SET = "/content/drive/MyDrive/DAEN429Project/asl_alphabet_test"
-     WLASL100_SET = "/content/drive/MyDrive/DAEN429Project/WLASL100"
+   - ASL_TEST_SET = "/content/drive/MyDrive/DAEN429Project/asl_alphabet_test"
+   - WLASL100_SET = "/content/drive/MyDrive/DAEN429Project/WLASL100"
 4. Run all cells
 
 Note: The notebook uses reduced training sizes to allow training within Colab's compute limits.
